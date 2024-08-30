@@ -102,7 +102,7 @@ export default function Component() {
       <div className="relative">
         <Dock magnification={100} distance={200}>
           {apps.map((app) => (
-            <DockIcon className="bg-black/10 dark:bg-white/10" onClick={() => openApp(app)}>
+            <DockIcon key={app.name} className="bg-black/10 dark:bg-white/10" onClick={() => openApp(app)}>
               <span className="text-3xl" >{app.icon}</span>
             </DockIcon>
           ))}
