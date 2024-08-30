@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 
 "use client";
 
@@ -145,7 +146,7 @@ export default function Component() {
                 <div>
                   <h2 className="text-2xl font-bold mb-4">About Me</h2>
                   <p>
-                    Hello! I'm Brian Wabweni, a passionate developer with a
+                    Hello! I&apos;m Brian Wabweni, a passionate developer with a
                     strong foundation in web technologies and a keen interest
                     in creating efficient and scalable software solutions.
                   </p>
@@ -171,7 +172,7 @@ export default function Component() {
                     </li>
                     <li>
                       <strong>Makerere Guild Platform:</strong> A comprehensive
-                      platform for managing Makerere University's student guild
+                      platform for managing Makerere University&apos;s student guild
                       government profiles and activities.
                     </li>
                   </ul>
