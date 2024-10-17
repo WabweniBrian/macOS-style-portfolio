@@ -35,3 +35,8 @@ body {
 html {
   font-size: 93.75%;;
 }
+
+
+.gallery * {
+ outline: none !important;
+}
